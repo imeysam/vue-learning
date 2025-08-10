@@ -2,6 +2,7 @@
 import { onMounted } from "vue";
 import { useBlog } from "@/composables/useBlog";
 import BlogListItemComponent from "@/components/blog/BlogListItemComponent.vue";
+import TitleComponent from "@/components/TitleComponent.vue";
 
 const { blogs, getBlogs } = useBlog();
 
@@ -11,6 +12,8 @@ onMounted(() => {
 </script>
 
 <template>
+  <TitleComponent title="بلاگ"/>
+
   <RouterLink
     class="media-link"
     v-for="(blog, index) in blogs"

@@ -1,4 +1,5 @@
 <script setup>
+import TitleComponent from "@/components/TitleComponent.vue";
 import { useWeather } from "@/composables/useWeather";
 import { onMounted } from "vue";
 
@@ -14,7 +15,7 @@ onMounted(getWeatherData);
 </script>
 
 <template>
-  <h1>هاوا چیطور ؟</h1>
+  <TitleComponent title="هاوا چیطور ؟" />
 
   <form @submit.prevent="getWeatherData">
     <input
