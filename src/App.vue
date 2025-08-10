@@ -10,6 +10,11 @@
           >
         </li>
         <li>
+          <RouterLink :to="{ name: 'TodoView' }" class="nav-link"
+            >تسک</RouterLink
+          >
+        </li>
+        <li>
           <RouterLink :to="{ name: 'WeatherView' }" class="nav-link"
             >هاوا</RouterLink
           >
