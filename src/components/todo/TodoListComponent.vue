@@ -13,7 +13,7 @@ function handleToggleTask(index) {
 <template>
   <div class="todo-app">
     <div class="todo-container">
-      <ul v-if="tasks.length" class="task-list">
+      <ul v-if="tasks && tasks.length" class="task-list">
         <TodoItemComponent :tasks="tasks" @toggle-task="handleToggleTask" />
       </ul>
       <div v-else>هیچ تسکی نداری 👏</div>
