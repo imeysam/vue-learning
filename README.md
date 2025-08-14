@@ -1,6 +1,6 @@
 # Vue Learning
 
-Contains some tiny vue learning projects such as `Todo`, `Weather` and `Blog`.
+Contains some tiny vue learning projects such as `Todo`, `Weather`, `Blog` and a `Mini Shop`.
 
 ## Project Setup
 
