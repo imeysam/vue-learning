@@ -1,11 +1,15 @@
-<script setup></script>
+<script setup>
+import { useCart } from './composables/useCart';
+
+const {cart} = useCart();
+</script>
 
 <template>
   <header class="app-header">
     <nav class="main-nav">
       <ul class="nav-links">
         <li>
-          <RouterLink :to="{ name: 'HomeView' }" class="nav-link"
+          <RouterLink :to="{ name: 'ProductView' }" class="nav-link"
             >خونه</RouterLink
           >
         </li>
@@ -22,6 +26,11 @@
         <li>
           <RouterLink :to="{ name: 'BlogView' }" class="nav-link"
             >بلاگ</RouterLink
+          >
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'CartView' }" class="nav-link"
+            >سبد خرید {{ cart.totalQuantity.toLocaleString('fa-IR') }}</RouterLink
           >
         </li>
       </ul>
@@ -73,7 +82,6 @@ body {
 
 h1 {
   color: #2c3e50;
-  margin-bottom: 25px;
 }
 
 /* 6. استایل پیام‌های خطا و بارگذاری */

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "ماوس بی‌سیم",
+    "amount": 1299350,
+    "image": "/images/products//wireless_mouse.jpg"
+  },
+  {
+    "id": 2,
+    "title": "صفحه‌کلید مکانیکی",
+    "amount": 3899350,
+    "image": "/images/products//mechanical_keyboard.jpg"
+  },
+  {
+    "id": 3,
+    "title": "شارژر USB-C",
+    "amount": 974350,
+    "image": "/images/products//usb_c_charger.jpg"
+  },
+  {
+    "id": 4,
+    "title": "پایه لپ‌تاپ",
+    "amount": 1949350,
+    "image": "/images/products//laptop_stand.jpg"
+  },
+  {
+    "id": 5,
+    "title": "هدفون با حذف نویز",
+    "amount": 5849350,
+    "image": "/images/products//noise_cancelling_headphones.jpg"
+  },
+  {
+    "id": 6,
+    "title": "هارد اکسترنال ۱ ترابایت",
+    "amount": 3249350,
+    "image": "/images/products//external_hard_drive.jpg"
+  },
+  {
+    "id": 7,
+    "title": "وب‌کم HD ۱۰۸۰p",
+    "amount": 2599350,
+    "image": "/images/products//webcam_hd.jpg"
+  },
+  {
+    "id": 8,
+    "title": "اسپیکر بلوتوث",
+    "amount": 1624350,
+    "image": "/images/products//bluetooth_speaker.jpg"
+  },
+  {
+    "id": 9,
+    "title": "ساعت هوشمند",
+    "amount": 6499350,
+    "image": "/images/products//smart_watch.jpg"
+  },
+  {
+    "id": 10,
+    "title": "پاوربانک قابل حمل ۱۰۰۰۰mAh",
+    "amount": 2274350,
+    "image": "/images/products//power_bank.jpg"
+  }
+]
